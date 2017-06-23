@@ -1,0 +1,15 @@
+After running the MapReduce program by taking inputfile.txt as input, we can get the following output as listed below.
+All the common/mutual friend for userIdi and userIdj is listed along with thier friend list inside the big braces. The userID pair that do not
+have any friend in common are left blank like for 101,106 pair.
+
+101,102 [103,104]	
+101,103 [102,104,105]	
+101,104 [102,103]	
+101,105 [103]	
+101,106 []	
+102,103 [101,104]	
+102,104 [101,103]	
+103,104 [101,102]	
+103,105 [101]
+
+	
